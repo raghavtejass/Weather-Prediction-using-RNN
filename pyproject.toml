@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "rnn"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pandas = "^1.2.4"
+matplotlib = "^3.4.2"
+seaborn = "^0.11.1"
+ipykernel = "^5.5.5"
+h5py = "3.1.0"
+scikit-learn = "^0.24.2"
+streamlit = "^0.84.0"
+tensorflow = "^2.5.0"
+
+[tool.poetry.dev-dependencies]
+black = {version = "^21.6b0", allow-prereleases = true}
+pydot = "^1.4.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
